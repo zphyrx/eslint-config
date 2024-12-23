@@ -1,5 +1,11 @@
 # @zphyrx/eslint-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 9c73ab2: Add built-in TypeScript support
+
 ## 1.0.0
 
 ### Major Changes
