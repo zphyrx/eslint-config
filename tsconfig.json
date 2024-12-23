@@ -1,0 +1,11 @@
+{
+  "extends": "@zphyrx/typescript-config/no-dom/library",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "dist/esm",
+    "types": ["vitest/globals"]
+  },
+  "include": ["src", "**/*.ts", "**/*.mts"],
+  "exclude": ["node_modules", "dist"]
+}
