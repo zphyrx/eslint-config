@@ -2,17 +2,17 @@ import * as exlint from "@zphyrx/exlint";
 
 import { isArray, isObject } from "./utils";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigWithExtends } from "@zphyrx/exlint";
 import type { ConfigOptions, FrameworkWithFlag } from "./types";
 
 const x = <F extends FrameworkWithFlag = false>(
   options: ConfigOptions<F> = {},
   ...configs: ConfigWithExtends[]
-): TSESLint.FlatConfig.ConfigArray => {
+): FlatConfig.ConfigArray => {
   const { testing = false } = options;
 
-  const cfgs: TSESLint.FlatConfig.ConfigArray = [
+  const cfgs: FlatConfig.ConfigArray = [
     {
       name: "@zphyrx/eslint-config/typescript",
       files: ["**/*.ts?(x)", "**/*.mts"],
@@ -45,7 +45,7 @@ const x = <F extends FrameworkWithFlag = false>(
 
 describe("x", (): void => {
   it("should return the config without vitest rules when `vitest` is disabled", (): void => {
-    const config: TSESLint.FlatConfig.ConfigArray = x({
+    const config: FlatConfig.ConfigArray = x({
       testing: false,
     });
 
@@ -62,7 +62,7 @@ describe("x", (): void => {
   });
 
   it("should return the config with vitest rules when `vitest` is enabled", (): void => {
-    const config: TSESLint.FlatConfig.ConfigArray = x({
+    const config: FlatConfig.ConfigArray = x({
       testing: "vitest",
     });
 

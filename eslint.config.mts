@@ -1,8 +1,8 @@
 import { x } from "./src/index";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 
-const config: TSESLint.FlatConfig.ConfigArray = x(
+const config: FlatConfig.ConfigArray = x(
   {
     framework: false,
     testing: "vitest",

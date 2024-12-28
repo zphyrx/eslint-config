@@ -1,9 +1,9 @@
 import * as exlint from "@zphyrx/exlint";
 import * as tailwindcss from "@zphyrx/eslint-config-tailwindcss";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 
-const config = (): TSESLint.FlatConfig.ConfigArray =>
+const config = (): FlatConfig.ConfigArray =>
   exlint.config({
     extends: tailwindcss.extends,
     name: "@zphyrx/eslint-config/tailwindcss",

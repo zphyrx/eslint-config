@@ -1,9 +1,9 @@
 import * as exlint from "@zphyrx/exlint";
 import * as prettier from "@zphyrx/eslint-config-prettier";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 
-const config = (): TSESLint.FlatConfig.ConfigArray =>
+const config = (): FlatConfig.ConfigArray =>
   exlint.config({
     extends: prettier.extends,
     name: "@zphyrx/eslint-config/prettier",

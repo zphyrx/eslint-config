@@ -13,14 +13,14 @@ import {
 } from "./configs";
 import { isArray, isObject } from "./utils";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigWithExtends } from "@zphyrx/exlint";
 import type { ConfigOptions, FrameworkWithFlag } from "./types";
 
 const x = <F extends FrameworkWithFlag = false>(
   options: ConfigOptions<F> = {},
   ...configs: ConfigWithExtends[]
-): TSESLint.FlatConfig.ConfigArray => {
+): FlatConfig.ConfigArray => {
   const {
     framework = false,
     testing = false,
@@ -28,7 +28,7 @@ const x = <F extends FrameworkWithFlag = false>(
     storybook: enableStorybook = false,
     prettier: enablePrettier = false,
   } = options;
-  const cfgs: TSESLint.FlatConfig.ConfigArray = [
+  const cfgs: FlatConfig.ConfigArray = [
     ...ignores.config(),
     ...typescript.config(),
     ...importX.config(),

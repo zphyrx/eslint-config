@@ -4,12 +4,12 @@ import * as react from "@zphyrx/eslint-config-react";
 import * as jsxA11y from "./_jsx-a11y";
 import { isArray, isObject } from "../utils";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigOptions, ReactOptions, FrameworkWithFlag } from "../types";
 
 const config = <F extends FrameworkWithFlag = false>(
   options: Partial<ConfigOptions<F>> = {},
-): TSESLint.FlatConfig.ConfigArray => {
+): FlatConfig.ConfigArray => {
   const { framework = false } = options;
 
   const enableJsxA11y =
