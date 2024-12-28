@@ -1,8 +1,8 @@
 import * as exlint from "@zphyrx/exlint";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 
-const config = (): TSESLint.FlatConfig.ConfigArray =>
+const config = (): FlatConfig.ConfigArray =>
   exlint.config({
     name: "@zphyrx/eslint-config/global-ignores",
     ignores: ["**/node_modules/**", "**/dist/**", "**/coverage/**"],

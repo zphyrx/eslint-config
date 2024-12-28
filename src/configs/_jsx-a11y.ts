@@ -1,9 +1,9 @@
 import * as exlint from "@zphyrx/exlint";
 import * as jsxA11y from "@zphyrx/eslint-config-jsx-a11y";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 
-const config = (): TSESLint.FlatConfig.ConfigArray =>
+const config = (): FlatConfig.ConfigArray =>
   exlint.config({
     extends: jsxA11y.extends,
     name: "@zphyrx/eslint-config/jsx-a11y",

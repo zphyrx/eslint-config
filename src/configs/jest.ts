@@ -4,12 +4,12 @@ import * as jest from "@zphyrx/eslint-config-jest";
 import * as testingLibrary from "./_testing-library";
 import { isArray, isObject } from "../utils";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigOptions, FrameworkWithFlag } from "../types";
 
 const config = <F extends FrameworkWithFlag = false>(
   options: Partial<ConfigOptions<F>> = {},
-): TSESLint.FlatConfig.ConfigArray => {
+): FlatConfig.ConfigArray => {
   const { testing = false } = options;
 
   const enableLib =

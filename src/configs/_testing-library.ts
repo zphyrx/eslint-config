@@ -3,12 +3,12 @@ import * as configs from "@zphyrx/eslint-config-testing-library";
 
 import { isArray } from "../utils";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigOptions, Framework, FrameworkWithFlag } from "../types";
 
 const config = <F extends FrameworkWithFlag = false>(
   options: Partial<ConfigOptions<F>> = {},
-): TSESLint.FlatConfig.ConfigArray => {
+): FlatConfig.ConfigArray => {
   const { framework: _framework = false } = options;
 
   const framework = (
