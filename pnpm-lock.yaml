@@ -52,8 +52,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(prettier@3.4.2)
       '@zphyrx/tsup-config':
-        specifier: ^1.1.0
-        version: 1.1.0(tsup@8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1))
+        specifier: ^1.1.1
+        version: 1.1.1(tsup@8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1))
       '@zphyrx/typescript-config':
         specifier: ^1.1.0
         version: 1.1.0(typescript@5.7.2)
@@ -1138,13 +1138,16 @@ packages:
   '@zphyrx/merge-config@1.1.0':
     resolution: {integrity: sha512-mOEi2i9TocypVJB40qq88pWPcvy+71SxWjbwxAH512v5SAUj6HzITQ6quUYcrdg/OV3UNGRP95mX90fy0BMFMw==}
 
+  '@zphyrx/merge-config@1.1.1':
+    resolution: {integrity: sha512-AzFkQ6PWXYVWUMVLd/y91lLZOtA3QeNz7L8h9PfV+rRsPkjwBRejTzddUz5ACjRklJzyCYg9IZxmjVMz0Z6sRA==}
+
   '@zphyrx/prettier-config@1.1.0':
     resolution: {integrity: sha512-vvMPAlAGZzS18i8VB9pLJq7TRqycz2ZH7ohRmJK5/n7QnH1EyEZsQdFpZiBDNv1UmUeW8xB9EjGucy3wP6SP9w==}
     peerDependencies:
       prettier: ^3.4.2
 
-  '@zphyrx/tsup-config@1.1.0':
-    resolution: {integrity: sha512-wQNztupUqyqe32MwUXulr61u55znrlrYT53Hd2D6csKfCFhTpKCEe2yGjhCy7Wqp5bJDcJ1bTdDiSFKMaJBDkw==}
+  '@zphyrx/tsup-config@1.1.1':
+    resolution: {integrity: sha512-mw4vKTn2jJYQLHc9nDAsHTtD1ZBijP59zDfTkVO2NMK90RGCcrL3yZfp6FstkJVJALWaIrvyoaPJ6tQIYWKOtA==}
     peerDependencies:
       tsup: ^8.3.5
 
@@ -4603,14 +4606,16 @@ snapshots:
 
   '@zphyrx/merge-config@1.1.0': {}
 
+  '@zphyrx/merge-config@1.1.1': {}
+
   '@zphyrx/prettier-config@1.1.0(prettier@3.4.2)':
     dependencies:
       '@zphyrx/merge-config': 1.1.0
       prettier: 3.4.2
 
-  '@zphyrx/tsup-config@1.1.0(tsup@8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1))':
+  '@zphyrx/tsup-config@1.1.1(tsup@8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1))':
     dependencies:
-      '@zphyrx/merge-config': 1.1.0
+      '@zphyrx/merge-config': 1.1.1
       tsup: 8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1)
 
   '@zphyrx/typescript-config@1.1.0(typescript@5.7.2)':
