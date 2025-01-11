@@ -1,5 +1,11 @@
 # @zphyrx/eslint-config
 
+## 1.1.2
+
+### Patch Changes
+
+- 724921f: Remove unnecessary `unstable_ts_config` flag
+
 ## 1.1.1
 
 ### Patch Changes
