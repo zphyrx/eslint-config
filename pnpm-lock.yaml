@@ -18,8 +18,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(eslint@9.17.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-prettier':
-        specifier: ^1.1.0
-        version: 1.1.0(eslint@9.17.0(jiti@2.4.2))(prettier@3.4.2)
+        specifier: ^1.1.1
+        version: 1.1.1(eslint@9.17.0(jiti@2.4.2))(prettier@3.4.2)
       '@zphyrx/eslint-config-react':
         specifier: ^1.1.0
         version: 1.1.0(eslint@9.17.0(jiti@2.4.2))(react@19.0.0)
@@ -1089,10 +1089,10 @@ packages:
       eslint: ^9.17.0
       react: ^19.0.0
 
-  '@zphyrx/eslint-config-prettier@1.1.0':
-    resolution: {integrity: sha512-aC2OKqZB0OjwC4JjY9hsza7J6IonLKnhZHOPtG3iw6kEqEIDH/lvcQsfe6Y3XjUnUV5p0L3976Wj9m1WFzL0sA==}
+  '@zphyrx/eslint-config-prettier@1.1.1':
+    resolution: {integrity: sha512-6zxjU08uhrxDAYPKHhcmSOS/pTfx7A+qtJx/BCqdMKBqAh3rXdMxVlE5C6J4ObEkbkNkh4WSgVqOSThB/lekjA==}
     peerDependencies:
-      eslint: ^9.17.0
+      eslint: ^9.18.0
       prettier: 3.4.2
 
   '@zphyrx/eslint-config-react@1.1.0':
@@ -4531,7 +4531,7 @@ snapshots:
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.17.0(jiti@2.4.2))
       react: 19.0.0
 
-  '@zphyrx/eslint-config-prettier@1.1.0(eslint@9.17.0(jiti@2.4.2))(prettier@3.4.2)':
+  '@zphyrx/eslint-config-prettier@1.1.1(eslint@9.17.0(jiti@2.4.2))(prettier@3.4.2)':
     dependencies:
       eslint: 9.17.0(jiti@2.4.2)
       eslint-config-prettier: 9.1.0(eslint@9.17.0(jiti@2.4.2))
