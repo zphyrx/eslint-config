@@ -58,7 +58,7 @@
     "@zphyrx/prettier-config": "^1.1.1",
     "@zphyrx/tsup-config": "^1.1.1",
     "@zphyrx/typescript-config": "^1.1.0",
-    "@zphyrx/vitest-config": "^1.1.0",
+    "@zphyrx/vitest-config": "^1.1.1",
     "eslint": "^9.18.0",
     "jiti": "^2.4.2",
     "prettier": "^3.4.2",
