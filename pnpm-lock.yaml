@@ -36,8 +36,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
       '@zphyrx/eslint-config-vitest':
-        specifier: ^1.1.2
-        version: 1.1.2(@typescript-eslint/utils@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)(vitest@2.1.8(@types/node@22.10.2))
+        specifier: ^1.1.3
+        version: 1.1.3(@typescript-eslint/utils@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)(vitest@2.1.8(@types/node@22.10.2))
       '@zphyrx/exlint':
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))
@@ -1111,10 +1111,10 @@ packages:
       eslint: ^9.18.0
       typescript: ^5.7.3
 
-  '@zphyrx/eslint-config-vitest@1.1.2':
-    resolution: {integrity: sha512-B2/sAn4Y+PjWhe1WfvKKK8FZgoWB9rebBstN2waCkRC0htCx4GQOoDjfdIGZdJiC0gUpLHquBHggJLj/oVqMRA==}
+  '@zphyrx/eslint-config-vitest@1.1.3':
+    resolution: {integrity: sha512-xRULk1ys5xoRg2kgwGj4d4daGwA8IV0zGEnRy1yaqEjFDZpPCQNHI+O9gEdNWZoVmmQkdK5JZAMrdERArVlxoQ==}
     peerDependencies:
-      eslint: ^9.17.0
+      eslint: ^9.18.0
       vitest: ^2.1.8
 
   '@zphyrx/exlint@1.1.1':
@@ -4545,7 +4545,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@zphyrx/eslint-config-vitest@1.1.2(@typescript-eslint/utils@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)(vitest@2.1.8(@types/node@22.10.2))':
+  '@zphyrx/eslint-config-vitest@1.1.3(@typescript-eslint/utils@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)(vitest@2.1.8(@types/node@22.10.2))':
     dependencies:
       '@vitest/eslint-plugin': 1.1.24(@typescript-eslint/utils@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)(vitest@2.1.8(@types/node@22.10.2))
       eslint: 9.18.0(jiti@2.4.2)
