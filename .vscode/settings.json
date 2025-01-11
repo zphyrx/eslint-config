@@ -4,8 +4,5 @@
     {
       "mode": "auto"
     }
-  ],
-  "eslint.options": {
-    "flags": ["unstable_ts_config"]
-  }
+  ]
 }

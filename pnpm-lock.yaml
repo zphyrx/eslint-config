@@ -63,9 +63,6 @@ importers:
       eslint:
         specifier: ^9.18.0
         version: 9.18.0(jiti@2.4.2)
-      jiti:
-        specifier: ^2.4.2
-        version: 2.4.2
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -6140,7 +6137,8 @@ snapshots:
 
   jiti@1.21.7: {}
 
-  jiti@2.4.2: {}
+  jiti@2.4.2:
+    optional: true
 
   joycon@3.1.1: {}
 
