@@ -21,8 +21,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
       '@zphyrx/eslint-config-react':
-        specifier: ^1.1.0
-        version: 1.1.0(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
+        specifier: ^1.1.1
+        version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-storybook':
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.3)
@@ -607,8 +607,8 @@ packages:
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@1.2.4':
-    resolution: {integrity: sha512-S8ZdQj/N69YAtuqFt7653jwcvuUj131+6qGLUyDqfDg1OIoBQ66OCuXC473YQfO2AaxITTutiRQiDwoo7ZLYyg==}
+  '@eslint/compat@1.2.5':
+    resolution: {integrity: sha512-5iuG/StT+7OfvhoBHPlmxkPA9om6aDUFgmD4+mWKAGsYt4vCe8rypneG03AuseyRHBmcCLXQtIH5S26tIoggLg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^9.10.0
@@ -1095,10 +1095,10 @@ packages:
       eslint: ^9.18.0
       prettier: 3.4.2
 
-  '@zphyrx/eslint-config-react@1.1.0':
-    resolution: {integrity: sha512-GKkdAQIRv+1pzAiIs9BbKfNXS1SzVDPA2lnAR7o1yXdvozz/VbP+kh1stmFizOdSxrIrUkFHisJnRKcJGHjc8A==}
+  '@zphyrx/eslint-config-react@1.1.1':
+    resolution: {integrity: sha512-lWB8WejlkKTxjw492QaSn89L14GU5DYVEdpgdFDvxfpU+V/TDIsWpinX2KxzUO1I4f7m8AGWBy/Gj+z6xfFULA==}
     peerDependencies:
-      eslint: ^9.17.0
+      eslint: ^9.18.0
       react: ^19.0.0
 
   '@zphyrx/eslint-config-storybook@1.1.1':
@@ -1712,8 +1712,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
-  eslint-plugin-react@7.37.2:
-    resolution: {integrity: sha512-EsTAnj9fLVr/GZleBLFbj/sSuXeWmp1eXIN60ceYnZveqEaUCyW4X+Vh4WTdUhCkW4xutXYqTXCUSyqD4rB75w==}
+  eslint-plugin-react@7.37.3:
+    resolution: {integrity: sha512-DomWuTQPFYZwF/7c9W2fkKkStqZmBd3uugfqBYLdkZ3Hii23WzZuOLUskGxB8qkSKqftxEeGL1TB2kMhrce0jA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -3901,7 +3901,7 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/compat@1.2.4(eslint@9.18.0(jiti@2.4.2))':
+  '@eslint/compat@1.2.5(eslint@9.18.0(jiti@2.4.2))':
     optionalDependencies:
       eslint: 9.18.0(jiti@2.4.2)
 
@@ -4547,12 +4547,12 @@ snapshots:
     transitivePeerDependencies:
       - '@types/eslint'
 
-  '@zphyrx/eslint-config-react@1.1.0(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)':
+  '@zphyrx/eslint-config-react@1.1.1(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)':
     dependencies:
-      '@eslint/compat': 1.2.4(eslint@9.18.0(jiti@2.4.2))
+      '@eslint/compat': 1.2.5(eslint@9.18.0(jiti@2.4.2))
       '@eslint/eslintrc': 3.2.0
       eslint: 9.18.0(jiti@2.4.2)
-      eslint-plugin-react: 7.37.2(eslint@9.18.0(jiti@2.4.2))
+      eslint-plugin-react: 7.37.3(eslint@9.18.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.1.0(eslint@9.18.0(jiti@2.4.2))
       react: 19.0.0
     transitivePeerDependencies:
@@ -5314,7 +5314,7 @@ snapshots:
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
 
-  eslint-plugin-react@7.37.2(eslint@9.18.0(jiti@2.4.2)):
+  eslint-plugin-react@7.37.3(eslint@9.18.0(jiti@2.4.2)):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
