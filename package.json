@@ -46,7 +46,7 @@
     "@zphyrx/eslint-config-prettier": "^1.1.1",
     "@zphyrx/eslint-config-react": "^1.1.0",
     "@zphyrx/eslint-config-storybook": "^1.1.1",
-    "@zphyrx/eslint-config-tailwindcss": "^1.1.0",
+    "@zphyrx/eslint-config-tailwindcss": "^1.1.1",
     "@zphyrx/eslint-config-testing-library": "^1.1.0",
     "@zphyrx/eslint-config-typescript": "^1.1.0",
     "@zphyrx/eslint-config-vitest": "^1.1.2",
