@@ -18,8 +18,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-prettier':
-        specifier: ^1.1.1
-        version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
+        specifier: ^1.1.2
+        version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
       '@zphyrx/eslint-config-react':
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
@@ -1086,8 +1086,8 @@ packages:
       eslint: ^9.18.0
       react: ^19.0.0
 
-  '@zphyrx/eslint-config-prettier@1.1.1':
-    resolution: {integrity: sha512-6zxjU08uhrxDAYPKHhcmSOS/pTfx7A+qtJx/BCqdMKBqAh3rXdMxVlE5C6J4ObEkbkNkh4WSgVqOSThB/lekjA==}
+  '@zphyrx/eslint-config-prettier@1.1.2':
+    resolution: {integrity: sha512-9/Qq92TKfdVAx7WMLt9eZJn2gni0nrS7fayHoAvoJax/YDsEAPBjxyDR+iLlopvzW/PKt6NpDetaDmj5CAB+cQ==}
     peerDependencies:
       eslint: ^9.18.0
       prettier: 3.4.2
@@ -1645,8 +1645,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@9.1.0:
-    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
+  eslint-config-prettier@10.0.1:
+    resolution: {integrity: sha512-lZBts941cyJyeaooiKxAtzoPHTN+GbQTJFAIdQbRhA4/8whaAraEh47Whw/ZFfrjNSnlAxqfm9i0XVAEkULjCw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1692,8 +1692,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-prettier@5.2.1:
-    resolution: {integrity: sha512-gH3iR3g4JfF+yYPaJYkN7jEl9QbweL/YfkoRlNnuIEHEz1vHVlCmWOS+eGGiRuzHQXdJFCOTxRgvju9b8VUmrw==}
+  eslint-plugin-prettier@5.2.2:
+    resolution: {integrity: sha512-1yI3/hf35wmlq66C8yOyrujQnel+v5l1Vop5Cl2I6ylyNTT1JbuUUnV3/41PzwTzcyDp/oF0jWE3HXvcH5AQOQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -4532,11 +4532,11 @@ snapshots:
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.18.0(jiti@2.4.2))
       react: 19.0.0
 
-  '@zphyrx/eslint-config-prettier@1.1.1(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)':
+  '@zphyrx/eslint-config-prettier@1.1.2(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)':
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
-      eslint-config-prettier: 9.1.0(eslint@9.18.0(jiti@2.4.2))
-      eslint-plugin-prettier: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
+      eslint-config-prettier: 10.0.1(eslint@9.18.0(jiti@2.4.2))
+      eslint-plugin-prettier: 5.2.2(eslint-config-prettier@10.0.1(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
       prettier: 3.4.2
     transitivePeerDependencies:
       - '@types/eslint'
@@ -5219,7 +5219,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@9.1.0(eslint@9.18.0(jiti@2.4.2)):
+  eslint-config-prettier@10.0.1(eslint@9.18.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
 
@@ -5297,14 +5297,14 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2):
+  eslint-plugin-prettier@5.2.2(eslint-config-prettier@10.0.1(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2):
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
       prettier: 3.4.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.2
     optionalDependencies:
-      eslint-config-prettier: 9.1.0(eslint@9.18.0(jiti@2.4.2))
+      eslint-config-prettier: 10.0.1(eslint@9.18.0(jiti@2.4.2))
 
   eslint-plugin-react-hooks@5.1.0(eslint@9.18.0(jiti@2.4.2)):
     dependencies:
