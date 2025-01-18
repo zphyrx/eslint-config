@@ -24,8 +24,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-storybook':
-        specifier: ^1.1.1
-        version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.3)
+        specifier: ^1.1.2
+        version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.3)
       '@zphyrx/eslint-config-tailwindcss':
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(tailwindcss@3.4.17)
@@ -1098,11 +1098,11 @@ packages:
       eslint: ^9.18.0
       react: ^19.0.0
 
-  '@zphyrx/eslint-config-storybook@1.1.1':
-    resolution: {integrity: sha512-+uKLgCxxRCAoXORN+FairGnuyEQqgNiFb6q5vPsJn4BTxwg2mPzhvjzBzHqeTbjHWpnDx5lch5iBPBtbUWrMRA==}
+  '@zphyrx/eslint-config-storybook@1.1.2':
+    resolution: {integrity: sha512-RhyPSeDWzhvq7TYyzzUxVm3vSCkNgpVT+AYdpUn+C38U7HVkTal7P0OjATF704yKLkuF01JzEaSnJxWqMxF9fg==}
     peerDependencies:
       eslint: ^9.18.0
-      storybook: ^8.4.7
+      storybook: ^8.5.0
 
   '@zphyrx/eslint-config-tailwindcss@1.1.1':
     resolution: {integrity: sha512-hjRxNAsppPhzl1cwnxbMtI3tazFrX/1dNW+VleKh/K8HDoBfxmLs4U7coicvqO7NIk2isefpZTspC8VHyTUNpw==}
@@ -4549,7 +4549,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@zphyrx/eslint-config-storybook@1.1.1(eslint@9.18.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.3)':
+  '@zphyrx/eslint-config-storybook@1.1.2(eslint@9.18.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.3)':
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
       eslint-plugin-storybook: 0.11.2(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
