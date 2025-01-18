@@ -15,8 +15,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(@typescript-eslint/eslint-plugin@8.19.1(@typescript-eslint/parser@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(jest@29.7.0(@types/node@22.10.2))(typescript@5.7.3)
       '@zphyrx/eslint-config-jsx-a11y':
-        specifier: ^1.1.1
-        version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
+        specifier: ^1.1.2
+        version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-prettier':
         specifier: ^1.1.1
         version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
@@ -1080,8 +1080,8 @@ packages:
       eslint: ^9.18.0
       jest: ^29.7.0
 
-  '@zphyrx/eslint-config-jsx-a11y@1.1.1':
-    resolution: {integrity: sha512-pQAOyI+l1LMN0z7MoOgNpCAQmO6f4kGvbEg6eKB4p/Lpvq7x1vbCvmaIyrPn1J+E0TiB3DP3ZZH7PdfOl8sYCA==}
+  '@zphyrx/eslint-config-jsx-a11y@1.1.2':
+    resolution: {integrity: sha512-Eh/szv9oHiIHPQkrKh9nfs+T1u7NaPP7UsTlcsrkpIFUC7TJr5UNSenwYESnipuerf4BuehpRyoq3u6UUHKYJw==}
     peerDependencies:
       eslint: ^9.18.0
       react: ^19.0.0
@@ -4526,7 +4526,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@zphyrx/eslint-config-jsx-a11y@1.1.1(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)':
+  '@zphyrx/eslint-config-jsx-a11y@1.1.2(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)':
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.18.0(jiti@2.4.2))
