@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@zphyrx/eslint-config-import-x':
-        specifier: ^1.1.1
-        version: 1.1.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
+        specifier: ^1.1.2
+        version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
       '@zphyrx/eslint-config-jest':
         specifier: ^1.1.1
         version: 1.1.1(@typescript-eslint/eslint-plugin@8.19.1(@typescript-eslint/parser@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(jest@29.7.0(@types/node@22.10.2))(typescript@5.7.3)
@@ -1069,8 +1069,8 @@ packages:
   '@vitest/utils@2.1.8':
     resolution: {integrity: sha512-dwSoui6djdwbfFmIgbIjX2ZhIoG7Ex/+xpxyiEgIGzjliY8xGkcpITKTlp6B4MgtGkF2ilvm97cPM96XZaAgcA==}
 
-  '@zphyrx/eslint-config-import-x@1.1.1':
-    resolution: {integrity: sha512-CsIJOoBD4BFFkwL9myY/pg+OrxqUiHXUYUgGhF6+70LlNLLbuxpd0g4pKoIs9j9GyijguJXN/dMU1aJeA/yjwQ==}
+  '@zphyrx/eslint-config-import-x@1.1.2':
+    resolution: {integrity: sha512-l2jNme//XS7pp0Uku2q6NsDzz1XgTiwTZGM43n4VWzqtGlDakW8MDnfiawHT5tLVqzyP5WIiDlBZquqWsxNd3A==}
     peerDependencies:
       eslint: ^9.18.0
 
@@ -4506,7 +4506,7 @@ snapshots:
       loupe: 3.1.2
       tinyrainbow: 1.2.0
 
-  '@zphyrx/eslint-config-import-x@1.1.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)':
+  '@zphyrx/eslint-config-import-x@1.1.2(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       eslint: 9.18.0(jiti@2.4.2)
       eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import-x@4.6.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))
@@ -5250,7 +5250,7 @@ snapshots:
   eslint-plugin-import-x@4.6.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3):
     dependencies:
       '@types/doctrine': 0.0.9
-      '@typescript-eslint/scope-manager': 8.19.1
+      '@typescript-eslint/scope-manager': 8.20.0
       '@typescript-eslint/utils': 8.20.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
       debug: 4.4.0
       doctrine: 3.0.0
