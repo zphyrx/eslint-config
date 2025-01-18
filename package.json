@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@zphyrx/eslint-config-import-x": "^1.1.2",
-    "@zphyrx/eslint-config-jest": "^1.1.1",
+    "@zphyrx/eslint-config-jest": "^1.1.2",
     "@zphyrx/eslint-config-jsx-a11y": "^1.1.2",
     "@zphyrx/eslint-config-prettier": "^1.1.1",
     "@zphyrx/eslint-config-react": "^1.1.1",
