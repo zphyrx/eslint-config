@@ -58,8 +58,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(typescript@5.7.3)
       '@zphyrx/vitest-config':
-        specifier: ^1.1.1
-        version: 1.1.1(@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.10.2)))(vitest@2.1.8(@types/node@22.10.2))
+        specifier: ^1.1.2
+        version: 1.1.2(@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.10.2)))(vitest@2.1.8(@types/node@22.10.2))
       eslint:
         specifier: ^9.18.0
         version: 9.18.0(jiti@2.4.2)
@@ -1153,11 +1153,11 @@ packages:
     peerDependencies:
       typescript: ^5.7.2
 
-  '@zphyrx/vitest-config@1.1.1':
-    resolution: {integrity: sha512-jn/pxomealrAsq99kK5l/dxSCtz72M3Rvvd4RrSSdj1CwC/cCMa+bbe66PLnh813G3XyagTr+hjT2nyBIOGERQ==}
+  '@zphyrx/vitest-config@1.1.2':
+    resolution: {integrity: sha512-cCbeDd1tFIJWHs4TtjPShv73KsaiXiiCFrOdn9GWd04ux4wcmVwlcdCYksD8jSmpPF1fPV+sU9gIYE8ajm43oQ==}
     peerDependencies:
-      '@vitest/coverage-v8': ^2.1.8
-      vitest: ^2.1.8
+      '@vitest/coverage-v8': ^3.0.2
+      vitest: ^3.0.2
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -4614,7 +4614,7 @@ snapshots:
     dependencies:
       typescript: 5.7.3
 
-  '@zphyrx/vitest-config@1.1.1(@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.10.2)))(vitest@2.1.8(@types/node@22.10.2))':
+  '@zphyrx/vitest-config@1.1.2(@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.10.2)))(vitest@2.1.8(@types/node@22.10.2))':
     dependencies:
       '@vitest/coverage-v8': 2.1.8(vitest@2.1.8(@types/node@22.10.2))
       vitest: 2.1.8(@types/node@22.10.2)
