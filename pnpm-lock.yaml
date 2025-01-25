@@ -21,8 +21,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)
       '@zphyrx/eslint-config-react':
-        specifier: ^1.1.2
-        version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
+        specifier: ^1.1.3
+        version: 1.1.3(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-storybook':
         specifier: ^1.1.2
         version: 1.1.2(eslint@9.18.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.3)
@@ -1067,10 +1067,10 @@ packages:
       eslint: ^9.18.0
       prettier: 3.4.2
 
-  '@zphyrx/eslint-config-react@1.1.2':
-    resolution: {integrity: sha512-iEO9/Q11PitAlebY8J5UJRcF/2GNMDdDbuZ73RWlmzPSUwD5cTwl5UA0R9cz8gJ12Ezv0VhRUwRxmZNk37rD7Q==}
+  '@zphyrx/eslint-config-react@1.1.3':
+    resolution: {integrity: sha512-FUgS1Jr9LEqHDWtu9X3YKKuQtxj45siar9Ni7YWaUdUbxDNAb3bSNfIFg7wxtzS3N7fROw68Fl5mf3UxdG9qGw==}
     peerDependencies:
-      eslint: ^9.18.0
+      eslint: ^9.19.0
       react: ^19.0.0
 
   '@zphyrx/eslint-config-storybook@1.1.2':
@@ -4483,7 +4483,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/eslint'
 
-  '@zphyrx/eslint-config-react@1.1.2(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)':
+  '@zphyrx/eslint-config-react@1.1.3(eslint@9.18.0(jiti@2.4.2))(react@19.0.0)':
     dependencies:
       '@eslint/compat': 1.2.5(eslint@9.18.0(jiti@2.4.2))
       '@eslint/eslintrc': 3.2.0
