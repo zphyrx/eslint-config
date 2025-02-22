@@ -1,8 +1,8 @@
-import { x } from "./src/index";
+import * as zphyrx from "./src/index";
 
 import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 
-const config: FlatConfig.ConfigArray = x(
+const config: FlatConfig.ConfigArray = zphyrx.config(
   {
     framework: false,
     testing: "vitest",

@@ -17,7 +17,7 @@ import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigWithExtends } from "@zphyrx/exlint";
 import type { ConfigOptions, FrameworkWithFlag } from "./types";
 
-const x = <F extends FrameworkWithFlag = false>(
+const config = <F extends FrameworkWithFlag = false>(
   options: ConfigOptions<F> = {},
   ...configs: ConfigWithExtends[]
 ): FlatConfig.ConfigArray => {
@@ -74,4 +74,4 @@ const x = <F extends FrameworkWithFlag = false>(
   return cfgs;
 };
 
-export { x };
+export { config };
