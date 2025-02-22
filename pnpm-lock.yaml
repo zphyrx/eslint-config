@@ -24,8 +24,8 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1(eslint@9.21.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-storybook':
-        specifier: ^1.1.2
-        version: 1.1.2(eslint@9.21.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.1))(typescript@5.7.3)
+        specifier: ^1.1.3
+        version: 1.1.3(eslint@9.21.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.1))(typescript@5.7.3)
       '@zphyrx/eslint-config-tailwindcss':
         specifier: ^1.1.2
         version: 1.1.2(eslint@9.21.0(jiti@2.4.2))(tailwindcss@3.4.17)
@@ -852,9 +852,6 @@ packages:
       prettier:
         optional: true
 
-  '@storybook/csf@0.1.12':
-    resolution: {integrity: sha512-9/exVhabisyIVL0VxTCxo01Tdm8wefIXKXfltAPTSr8cbLn5JAxGQ6QV3mjdecLGEOucfoVhAKtJfVHxEK1iqw==}
-
   '@storybook/csf@0.1.13':
     resolution: {integrity: sha512-7xOOwCLGB3ebM87eemep89MYRFTko+D8qE7EdAAq74lgdqRR5cOUtYWJLjO2dLtP94nqoOdHJo6MdLLKzg412Q==}
 
@@ -1070,11 +1067,11 @@ packages:
       eslint: ^9.21.0
       react: ^19.0.0
 
-  '@zphyrx/eslint-config-storybook@1.1.2':
-    resolution: {integrity: sha512-RhyPSeDWzhvq7TYyzzUxVm3vSCkNgpVT+AYdpUn+C38U7HVkTal7P0OjATF704yKLkuF01JzEaSnJxWqMxF9fg==}
+  '@zphyrx/eslint-config-storybook@1.1.3':
+    resolution: {integrity: sha512-NzX/yX9HK3Vg51aPwehC57A0WWx6w/Nk+2x9ODaIf57PRePmQmEwFuXBQaoOFrXQYqo33KgxXfeJwGG5ERL9qQ==}
     peerDependencies:
-      eslint: ^9.18.0
-      storybook: ^8.5.0
+      eslint: ^9.21.0
+      storybook: ^8.5.8
 
   '@zphyrx/eslint-config-tailwindcss@1.1.2':
     resolution: {integrity: sha512-iboXCmBw+ZdMXIgewojkrKI371gY0IF0KpeAL/vlDgG3AtiOiVGa7AqACrs2H6Ks6ofwZcLRKaeDoFFJVI2c1A==}
@@ -1685,11 +1682,12 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
 
-  eslint-plugin-storybook@0.11.2:
-    resolution: {integrity: sha512-0Z4DUklJrC+GHjCRXa7PYfPzWC15DaVnwaOYenpgXiCEijXPZkLKCms+rHhtoRcWccP7Z8DpOOaP1gc3P9oOwg==}
+  eslint-plugin-storybook@0.11.3:
+    resolution: {integrity: sha512-gDBnBZiyk4ZG7OMSJRaHBcuJ8TMCXgMIQ3HB/XvtN0SvSio2ZOIeYD3yGj39g/DbyCe/Bg02j/ip9tWlDEs82A==}
     engines: {node: '>= 18'}
     peerDependencies:
       eslint: '>=8'
+      typescript: '>=4.8.4 <5.8.0'
 
   eslint-plugin-tailwindcss@3.18.0:
     resolution: {integrity: sha512-PQDU4ZMzFH0eb2DrfHPpbgo87Zgg2EXSMOj1NSfzdZm+aJzpuwGerfowMIaVehSREEa0idbf/eoNYAOHSJoDAQ==}
@@ -4271,10 +4269,6 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@storybook/csf@0.1.12':
-    dependencies:
-      type-fest: 2.19.0
-
   '@storybook/csf@0.1.13':
     dependencies:
       type-fest: 2.19.0
@@ -4572,10 +4566,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@zphyrx/eslint-config-storybook@1.1.2(eslint@9.21.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.1))(typescript@5.7.3)':
+  '@zphyrx/eslint-config-storybook@1.1.3(eslint@9.21.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.1))(typescript@5.7.3)':
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
-      eslint-plugin-storybook: 0.11.2(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
+      eslint-plugin-storybook: 0.11.3(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
       storybook: 8.4.7(prettier@3.5.1)
     transitivePeerDependencies:
       - supports-color
@@ -5325,15 +5319,15 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-storybook@0.11.2(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3):
+  eslint-plugin-storybook@0.11.3(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3):
     dependencies:
-      '@storybook/csf': 0.1.12
+      '@storybook/csf': 0.1.13
       '@typescript-eslint/utils': 8.24.1(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
       eslint: 9.21.0(jiti@2.4.2)
       ts-dedent: 2.2.0
+      typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
-      - typescript
 
   eslint-plugin-tailwindcss@3.18.0(tailwindcss@3.4.17):
     dependencies:
