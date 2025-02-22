@@ -49,7 +49,7 @@
     "@zphyrx/eslint-config-tailwindcss": "^1.1.2",
     "@zphyrx/eslint-config-testing-library": "^1.1.2",
     "@zphyrx/eslint-config-typescript": "^1.1.2",
-    "@zphyrx/eslint-config-vitest": "^1.1.4",
+    "@zphyrx/eslint-config-vitest": "^1.1.5",
     "@zphyrx/exlint": "^1.1.3"
   },
   "devDependencies": {
