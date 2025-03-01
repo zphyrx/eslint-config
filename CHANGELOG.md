@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- 816d55e: Add `plugins` field to react config'
+- 816d55e: Add `plugins` field to react config
 
 ## 1.1.2
 
