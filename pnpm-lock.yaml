@@ -21,8 +21,8 @@ importers:
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)
       '@zphyrx/eslint-config-react':
-        specifier: ^1.2.1
-        version: 1.2.1(eslint@9.21.0(jiti@2.4.2))(react@19.0.0)
+        specifier: ^1.3.0
+        version: 1.3.0(eslint@9.21.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-storybook':
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.21.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.2))(typescript@5.8.2)
@@ -1202,8 +1202,8 @@ packages:
       eslint: ^9.21.0
       prettier: 3.5.1
 
-  '@zphyrx/eslint-config-react@1.2.1':
-    resolution: {integrity: sha512-vXUztnW9bWMZvLuT/TIK82f++tYUla4AfBHuFR+QQb39w4DquChkmPd4v1Y58S1e5FKfDQU1JyyT8PFyZB6JhA==}
+  '@zphyrx/eslint-config-react@1.3.0':
+    resolution: {integrity: sha512-nvUhHOgcsyiOksLAOf0bXteKByvT6x5hrVtGYBbIBQWaUM1TI1zd5qk8JPOA58qiCGcb0sqRC38OZwl+Y4Bg+A==}
     peerDependencies:
       eslint: ^9.21.0
       react: ^19.0.0
@@ -1787,8 +1787,8 @@ packages:
       eslint-config-prettier:
         optional: true
 
-  eslint-plugin-react-hooks@5.1.0:
-    resolution: {integrity: sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==}
+  eslint-plugin-react-hooks@5.2.0:
+    resolution: {integrity: sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -4648,13 +4648,13 @@ snapshots:
     transitivePeerDependencies:
       - '@types/eslint'
 
-  '@zphyrx/eslint-config-react@1.2.1(eslint@9.21.0(jiti@2.4.2))(react@19.0.0)':
+  '@zphyrx/eslint-config-react@1.3.0(eslint@9.21.0(jiti@2.4.2))(react@19.0.0)':
     dependencies:
       '@eslint/compat': 1.2.7(eslint@9.21.0(jiti@2.4.2))
       '@eslint/eslintrc': 3.3.0
       eslint: 9.21.0(jiti@2.4.2)
       eslint-plugin-react: 7.37.4(eslint@9.21.0(jiti@2.4.2))
-      eslint-plugin-react-hooks: 5.1.0(eslint@9.21.0(jiti@2.4.2))
+      eslint-plugin-react-hooks: 5.2.0(eslint@9.21.0(jiti@2.4.2))
       react: 19.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5388,7 +5388,7 @@ snapshots:
     optionalDependencies:
       eslint-config-prettier: 10.0.1(eslint@9.21.0(jiti@2.4.2))
 
-  eslint-plugin-react-hooks@5.1.0(eslint@9.21.0(jiti@2.4.2)):
+  eslint-plugin-react-hooks@5.2.0(eslint@9.21.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
 
