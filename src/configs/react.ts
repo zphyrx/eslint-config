@@ -23,9 +23,6 @@ const config = <F extends FrameworkWithFlag = false>(
       extends: react.extends,
       name: "@zphyrx/eslint-config/react",
       files: react.files,
-      plugins: {
-        ...react.plugins,
-      },
       rules: {
         ...react.rules,
       },
