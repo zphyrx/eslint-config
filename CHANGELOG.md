@@ -1,5 +1,11 @@
 # @zphyrx/eslint-config
 
+## 1.1.4
+
+### Patch Changes
+
+- 176d068: Remove `plugins` field from the react config
+
 ## 1.1.3
 
 ### Patch Changes
