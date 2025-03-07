@@ -70,7 +70,7 @@
     "eslint": "^9.22.0"
   },
   "optionalDependencies": {
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^4.0.12"
   },
   "packageManager": "pnpm@10.6.1",
   "engines": {
