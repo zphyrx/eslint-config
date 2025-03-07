@@ -44,7 +44,7 @@
     "@zphyrx/eslint-config-jest": "^1.1.3",
     "@zphyrx/eslint-config-jsx-a11y": "^1.1.3",
     "@zphyrx/eslint-config-prettier": "^1.1.3",
-    "@zphyrx/eslint-config-react": "^1.3.0",
+    "@zphyrx/eslint-config-react": "^1.3.1",
     "@zphyrx/eslint-config-storybook": "^1.1.3",
     "@zphyrx/eslint-config-tailwindcss": "^1.1.3",
     "@zphyrx/eslint-config-testing-library": "^1.1.3",
