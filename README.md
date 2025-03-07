@@ -17,10 +17,10 @@ $ pnpm add -D @zphyrx/eslint-config
 Extend `@zphyrx/eslint-config` and add any additional configurations in your `eslint.config.mjs` file:
 
 ```mjs
-import { x } from "@zphyrx/eslint-config";
+import * as zphyrx from "@zphyrx/eslint-config";
 import storybookPlugin from "eslint-plugin-storybook";
 
-const config = x(
+const config = zphyrx.config(
   {
     framework: "react", // Enables React and React Hooks
     testing: [
