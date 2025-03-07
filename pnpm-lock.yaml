@@ -21,8 +21,8 @@ importers:
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.22.0(jiti@2.4.2))(prettier@3.5.3)
       '@zphyrx/eslint-config-react':
-        specifier: ^1.3.0
-        version: 1.3.0(eslint@9.22.0(jiti@2.4.2))(react@19.0.0)
+        specifier: ^1.3.1
+        version: 1.3.1(eslint@9.22.0(jiti@2.4.2))(react@19.0.0)
       '@zphyrx/eslint-config-storybook':
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.22.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.3))(typescript@5.8.2)
@@ -623,15 +623,6 @@ packages:
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@1.2.7':
-    resolution: {integrity: sha512-xvv7hJE32yhegJ8xNAnb62ggiAwTYHBpUCWhRxEj/ksvgDJuSXfoDkBcRYaYNFiJ+jH0IE3K16hd+xXzhBgNbg==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    peerDependencies:
-      eslint: ^9.10.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
-
   '@eslint/config-array@0.19.2':
     resolution: {integrity: sha512-GNKqxfHG2ySmJOBSHg7LxeUx4xpuCoFjacmlCoYWEbaPXLwvfIjixRI12xCQZeULksQb23uiA8F40w5TojpV7w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -1115,10 +1106,10 @@ packages:
       eslint: ^9.21.0
       prettier: 3.5.1
 
-  '@zphyrx/eslint-config-react@1.3.0':
-    resolution: {integrity: sha512-nvUhHOgcsyiOksLAOf0bXteKByvT6x5hrVtGYBbIBQWaUM1TI1zd5qk8JPOA58qiCGcb0sqRC38OZwl+Y4Bg+A==}
+  '@zphyrx/eslint-config-react@1.3.1':
+    resolution: {integrity: sha512-sScWn/2fCNa8HQ2+TlI7AVHsdtHehK8j/pGM3vyyR4mQ9/G3iP29ETlTQJcfsE/6fGJxUryvhwHi3C2kKBkA1Q==}
     peerDependencies:
-      eslint: ^9.21.0
+      eslint: ^9.22.0
       react: ^19.0.0
 
   '@zphyrx/eslint-config-storybook@1.1.3':
@@ -3946,10 +3937,6 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/compat@1.2.7(eslint@9.22.0(jiti@2.4.2))':
-    optionalDependencies:
-      eslint: 9.22.0(jiti@2.4.2)
-
   '@eslint/config-array@0.19.2':
     dependencies:
       '@eslint/object-schema': 2.1.6
@@ -4594,16 +4581,12 @@ snapshots:
     transitivePeerDependencies:
       - '@types/eslint'
 
-  '@zphyrx/eslint-config-react@1.3.0(eslint@9.22.0(jiti@2.4.2))(react@19.0.0)':
+  '@zphyrx/eslint-config-react@1.3.1(eslint@9.22.0(jiti@2.4.2))(react@19.0.0)':
     dependencies:
-      '@eslint/compat': 1.2.7(eslint@9.22.0(jiti@2.4.2))
-      '@eslint/eslintrc': 3.3.0
       eslint: 9.22.0(jiti@2.4.2)
       eslint-plugin-react: 7.37.4(eslint@9.22.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.22.0(jiti@2.4.2))
       react: 19.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   '@zphyrx/eslint-config-storybook@1.1.3(eslint@9.22.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.3))(typescript@5.8.2)':
     dependencies:
