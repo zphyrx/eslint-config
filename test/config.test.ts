@@ -1,12 +1,12 @@
 import * as exlint from "@zphyrx/exlint";
 
-import { isArray, isObject } from "./utils";
+import { isArray, isObject } from "../src/utils";
 
 import type { FlatConfig } from "@typescript-eslint/utils/ts-eslint";
 import type { ConfigWithExtends } from "@zphyrx/exlint";
-import type { ConfigOptions, FrameworkWithFlag } from "./types";
+import type { ConfigOptions, FrameworkWithFlag } from "../src/types";
 
-const x = <F extends FrameworkWithFlag = false>(
+const testConfig = <F extends FrameworkWithFlag = false>(
   options: ConfigOptions<F> = {},
   ...configs: ConfigWithExtends[]
 ): FlatConfig.ConfigArray => {
@@ -43,9 +43,9 @@ const x = <F extends FrameworkWithFlag = false>(
   return cfgs;
 };
 
-describe("x", (): void => {
+describe("config", (): void => {
   it("should return the config without vitest rules when `vitest` is disabled", (): void => {
-    const config: FlatConfig.ConfigArray = x({
+    const config: FlatConfig.ConfigArray = testConfig({
       testing: false,
     });
 
@@ -62,7 +62,7 @@ describe("x", (): void => {
   });
 
   it("should return the config with vitest rules when `vitest` is enabled", (): void => {
-    const config: FlatConfig.ConfigArray = x({
+    const config: FlatConfig.ConfigArray = testConfig({
       testing: "vitest",
     });
 
