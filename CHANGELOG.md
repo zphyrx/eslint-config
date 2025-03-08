@@ -1,5 +1,11 @@
 # @zphyrx/eslint-config
 
+## 1.1.5
+
+### Patch Changes
+
+- 9b5aa5c: Move `config.test.ts` to `test` directory
+
 ## 1.1.4
 
 ### Patch Changes
