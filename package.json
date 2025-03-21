@@ -72,7 +72,7 @@
   "optionalDependencies": {
     "tailwindcss": "^3.4.17"
   },
-  "packageManager": "pnpm@10.6.3",
+  "packageManager": "pnpm@10.6.5",
   "engines": {
     "node": ">=22.14.0"
   },
