@@ -30,8 +30,8 @@ importers:
         specifier: ^1.1.4
         version: 1.1.4(eslint@9.25.0(jiti@2.4.2))(tailwindcss@3.4.17)
       '@zphyrx/eslint-config-testing-library':
-        specifier: ^1.1.3
-        version: 1.1.3(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
+        specifier: ^1.1.4
+        version: 1.1.4(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
       '@zphyrx/eslint-config-typescript':
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
@@ -1130,10 +1130,13 @@ packages:
       tailwindcss:
         optional: true
 
-  '@zphyrx/eslint-config-testing-library@1.1.3':
-    resolution: {integrity: sha512-tPTu3gGE1ieiZndloo1yT3AhKhRhnoXtGMQh0QGCHb9VytmD0j4F3B0UiVZQoZ29xUYj0kfqC4OT3wbBOQZf+w==}
+  '@zphyrx/eslint-config-testing-library@1.1.4':
+    resolution: {integrity: sha512-9k3baNYLf/bxuINllNmdxRJyBglBMczLvGkf+imeN5tsXqdq7t6fnCFbwsfy0uu44DRoRdu/o0ev3WzBfa2APg==}
     peerDependencies:
-      eslint: ^9.21.0
+      eslint: ^9.25.0
+    peerDependenciesMeta:
+      eslint:
+        optional: true
 
   '@zphyrx/eslint-config-typescript@1.1.3':
     resolution: {integrity: sha512-jogpdKWAKC8KEu8JBbPdx7+wjPUXrNBiGKCemHRs5G/NeFu9YCSqXEgHkRX8fcQEh/Ylg5PqEpdV9khg/lyeWQ==}
@@ -4602,10 +4605,11 @@ snapshots:
       eslint: 9.25.0(jiti@2.4.2)
       tailwindcss: 3.4.17
 
-  '@zphyrx/eslint-config-testing-library@1.1.3(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@zphyrx/eslint-config-testing-library@1.1.4(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
-      eslint: 9.25.0(jiti@2.4.2)
       eslint-plugin-testing-library: 7.1.1(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
+    optionalDependencies:
+      eslint: 9.25.0(jiti@2.4.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5395,7 +5399,7 @@ snapshots:
 
   eslint-plugin-testing-library@7.1.1(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
-      '@typescript-eslint/scope-manager': 8.24.1
+      '@typescript-eslint/scope-manager': 8.30.1
       '@typescript-eslint/utils': 8.30.1(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.25.0(jiti@2.4.2)
     transitivePeerDependencies:
