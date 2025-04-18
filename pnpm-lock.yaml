@@ -27,8 +27,8 @@ importers:
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.25.0(jiti@2.4.2))(storybook@8.4.7(prettier@3.5.3))(typescript@5.8.3)
       '@zphyrx/eslint-config-tailwindcss':
-        specifier: ^1.1.3
-        version: 1.1.3(eslint@9.25.0(jiti@2.4.2))(tailwindcss@3.4.17)
+        specifier: ^1.1.4
+        version: 1.1.4(eslint@9.25.0(jiti@2.4.2))(tailwindcss@3.4.17)
       '@zphyrx/eslint-config-testing-library':
         specifier: ^1.1.3
         version: 1.1.3(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
@@ -1119,11 +1119,16 @@ packages:
       eslint: ^9.21.0
       storybook: ^8.5.8
 
-  '@zphyrx/eslint-config-tailwindcss@1.1.3':
-    resolution: {integrity: sha512-pyPntONQ+KI7UiV+JR1UjSfBJkPc1wYm5GzmXaj7m0HdZUdGOnD5t1Pi4ySfxoIY6lnCkRCPGXk74ximf/XOfw==}
+  '@zphyrx/eslint-config-tailwindcss@1.1.4':
+    resolution: {integrity: sha512-9cCWTHuEZJ92dziMcGyajEOfFKklalZOli/lLsqGpZ+rhJgIrGf/b8/Dfj+OzcipB59D+07tn2KPoBpvMX42Eg==}
     peerDependencies:
-      eslint: ^9.21.0
-      tailwindcss: ^4.0.8
+      eslint: ^9.25.0
+      tailwindcss: ^4.1.4
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      tailwindcss:
+        optional: true
 
   '@zphyrx/eslint-config-testing-library@1.1.3':
     resolution: {integrity: sha512-tPTu3gGE1ieiZndloo1yT3AhKhRhnoXtGMQh0QGCHb9VytmD0j4F3B0UiVZQoZ29xUYj0kfqC4OT3wbBOQZf+w==}
@@ -4590,10 +4595,11 @@ snapshots:
       - supports-color
       - typescript
 
-  '@zphyrx/eslint-config-tailwindcss@1.1.3(eslint@9.25.0(jiti@2.4.2))(tailwindcss@3.4.17)':
+  '@zphyrx/eslint-config-tailwindcss@1.1.4(eslint@9.25.0(jiti@2.4.2))(tailwindcss@3.4.17)':
     dependencies:
-      eslint: 9.25.0(jiti@2.4.2)
       eslint-plugin-tailwindcss: 3.18.0(tailwindcss@3.4.17)
+    optionalDependencies:
+      eslint: 9.25.0(jiti@2.4.2)
       tailwindcss: 3.4.17
 
   '@zphyrx/eslint-config-testing-library@1.1.3(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)':
