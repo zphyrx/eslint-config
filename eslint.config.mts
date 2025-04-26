@@ -19,6 +19,7 @@ const config: FlatConfig.ConfigArray = zphyrx.config(
     name: "@zphyrx/eslint-config/import-x",
     rules: {
       "import-x/namespace": "off",
+      "import-x/no-unresolved": "off",
     },
   },
 );
