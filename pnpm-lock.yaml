@@ -49,8 +49,8 @@ importers:
         specifier: ^8.35.0
         version: 8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
       '@zphyrx/prettier-config':
-        specifier: ^1.1.4
-        version: 1.1.4(prettier@3.6.2)
+        specifier: ^2.0.0
+        version: 2.0.0(prettier@3.6.2)
       '@zphyrx/tsup-config':
         specifier: ^2.0.0
         version: 2.0.0(tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0))
@@ -1020,16 +1020,13 @@ packages:
       eslint:
         optional: true
 
-  '@zphyrx/merge-config@1.1.3':
-    resolution: {integrity: sha512-I0LIPQLIPzV6i8I3YIDw7wE/ypZprKexqrLXdUojOL4TQXgqotmROKetE7rs3fFmVFbFKG06E0G4xFIhsMXnoQ==}
-
   '@zphyrx/merge-config@2.0.0':
     resolution: {integrity: sha512-9AwXiH0nP7NKr5KDibTMe7wxM51pFg7/v0pQzliGFMvpziu2SIzpXMdiN6WwySHfQKjC4RRIvKjVcFE31lS+0Q==}
 
-  '@zphyrx/prettier-config@1.1.4':
-    resolution: {integrity: sha512-0f6WThfyDkD7xOoWCfmqiauq/na028x4W11yQEegd8Jn410LkOVMdiAPpWtMSy0kOk7xm52G3JZRKuwk284p0g==}
+  '@zphyrx/prettier-config@2.0.0':
+    resolution: {integrity: sha512-tbGkITIm4X+b1kuD32plv4fMLry37MzEStjY1RanO1ohjj6KsnTA0UwCmiJ7He6EbrvMz/cX2x+RdJNObbLO8g==}
     peerDependencies:
-      prettier: ^3.5.3
+      prettier: ^3.6.2
     peerDependenciesMeta:
       prettier:
         optional: true
@@ -3753,13 +3750,11 @@ snapshots:
     optionalDependencies:
       eslint: 9.30.0(jiti@2.4.2)
 
-  '@zphyrx/merge-config@1.1.3': {}
-
   '@zphyrx/merge-config@2.0.0': {}
 
-  '@zphyrx/prettier-config@1.1.4(prettier@3.6.2)':
+  '@zphyrx/prettier-config@2.0.0(prettier@3.6.2)':
     dependencies:
-      '@zphyrx/merge-config': 1.1.3
+      '@zphyrx/merge-config': 2.0.0
     optionalDependencies:
       prettier: 3.6.2
 
