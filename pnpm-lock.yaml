@@ -36,8 +36,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
       '@zphyrx/eslint-config-vitest':
-        specifier: ^1.1.6
-        version: 1.1.6(@typescript-eslint/utils@8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
+        specifier: ^2.0.0
+        version: 2.0.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
       '@zphyrx/exlint':
         specifier: ^2.0.0
         version: 2.0.0(eslint@9.30.0(jiti@2.4.2))
@@ -1132,10 +1132,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vitest/eslint-plugin@1.1.43':
-    resolution: {integrity: sha512-OLoUMO67Yg+kr7E6SjF5+Qvl2f6uNJ7ImQYnXT8WgnPiZE41ZQBsnzn70jehXrhFVadphHs2smk+yl0TFKLV5Q==}
+  '@vitest/eslint-plugin@1.3.3':
+    resolution: {integrity: sha512-zOB4T5f80JXfP5DC2yQl7azRYq8PmGqYle3uxh3a0NnbKc+EaSYSpEcrVAh2r5W97pi3BVv7oRb5NdEQy0cCXA==}
     peerDependencies:
-      '@typescript-eslint/utils': '>= 8.24.0'
       eslint: '>= 8.57.0'
       typescript: '>= 5.0.0'
       vitest: '*'
@@ -1267,11 +1266,11 @@ packages:
       typescript:
         optional: true
 
-  '@zphyrx/eslint-config-vitest@1.1.6':
-    resolution: {integrity: sha512-KbXRDWQwT7JKMfEsyvClW19Dd/RW92KBtOn+SZglHUidtIBcMVAzwrtegr03w34IR1b3qUBHq3FbfgBkK95bMw==}
+  '@zphyrx/eslint-config-vitest@2.0.0':
+    resolution: {integrity: sha512-3sm5XySf7sMOKVjKFHnY0pOzhBvkgp2UqR5c0/NTfggUnagcumkKcRXXmEVJy9o8gMV1c5pt4IEap4NXJkShpA==}
     peerDependencies:
-      eslint: ^9.25.0
-      vitest: ^3.1.1
+      eslint: ^9.30.0
+      vitest: ^3.2.4
     peerDependenciesMeta:
       eslint:
         optional: true
@@ -4740,13 +4739,15 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.9.2':
     optional: true
 
-  '@vitest/eslint-plugin@1.1.43(@typescript-eslint/utils@8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
+  '@vitest/eslint-plugin@1.3.3(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
     dependencies:
       '@typescript-eslint/utils': 8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.30.0(jiti@2.4.2)
     optionalDependencies:
       typescript: 5.8.3
       vitest: 3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0)
+    transitivePeerDependencies:
+      - supports-color
 
   '@vitest/expect@3.2.4':
     dependencies:
@@ -4870,14 +4871,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@zphyrx/eslint-config-vitest@1.1.6(@typescript-eslint/utils@8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
+  '@zphyrx/eslint-config-vitest@2.0.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
     dependencies:
-      '@vitest/eslint-plugin': 1.1.43(@typescript-eslint/utils@8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
+      '@vitest/eslint-plugin': 1.3.3(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
     optionalDependencies:
       eslint: 9.30.0(jiti@2.4.2)
       vitest: 3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0)
     transitivePeerDependencies:
-      - '@typescript-eslint/utils'
+      - supports-color
       - typescript
 
   '@zphyrx/exlint@2.0.0(eslint@9.30.0(jiti@2.4.2))':
@@ -6204,7 +6205,7 @@ snapshots:
       '@babel/parser': 7.26.7
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
-      semver: 7.7.1
+      semver: 7.7.2
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -6522,7 +6523,7 @@ snapshots:
       jest-util: 29.7.0
       natural-compare: 1.4.0
       pretty-format: 29.7.0
-      semver: 7.7.1
+      semver: 7.7.2
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -6687,7 +6688,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     optional: true
 
   makeerror@1.0.12:
@@ -7406,7 +7407,8 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tslib@2.8.1: {}
+  tslib@2.8.1:
+    optional: true
 
   tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0):
     dependencies:
