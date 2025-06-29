@@ -52,8 +52,8 @@ importers:
         specifier: ^1.1.4
         version: 1.1.4(prettier@3.6.2)
       '@zphyrx/tsup-config':
-        specifier: ^1.1.4
-        version: 1.1.4(tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0))
+        specifier: ^2.0.0
+        version: 2.0.0(tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0))
       '@zphyrx/typescript-config':
         specifier: ^1.1.1
         version: 1.1.1(typescript@5.8.3)
@@ -1023,6 +1023,9 @@ packages:
   '@zphyrx/merge-config@1.1.3':
     resolution: {integrity: sha512-I0LIPQLIPzV6i8I3YIDw7wE/ypZprKexqrLXdUojOL4TQXgqotmROKetE7rs3fFmVFbFKG06E0G4xFIhsMXnoQ==}
 
+  '@zphyrx/merge-config@2.0.0':
+    resolution: {integrity: sha512-9AwXiH0nP7NKr5KDibTMe7wxM51pFg7/v0pQzliGFMvpziu2SIzpXMdiN6WwySHfQKjC4RRIvKjVcFE31lS+0Q==}
+
   '@zphyrx/prettier-config@1.1.4':
     resolution: {integrity: sha512-0f6WThfyDkD7xOoWCfmqiauq/na028x4W11yQEegd8Jn410LkOVMdiAPpWtMSy0kOk7xm52G3JZRKuwk284p0g==}
     peerDependencies:
@@ -1031,10 +1034,10 @@ packages:
       prettier:
         optional: true
 
-  '@zphyrx/tsup-config@1.1.4':
-    resolution: {integrity: sha512-DZPv+1cszJaLxxD7P8cmnEE1/TcKfEl9+1dnW9lrjnGhOZspvyt4eEZ6/h0nNurz4CLE+IjQtSARaQyYZj8hSA==}
+  '@zphyrx/tsup-config@2.0.0':
+    resolution: {integrity: sha512-ZkBjA8Z/wlbIPRmvQTekt84uMt4dZSMz8G8+tUntuMk6DooxIG99DtyrS1t4V9eQhDsq8zq8+fCt+3EowaV0zw==}
     peerDependencies:
-      tsup: ^8.4.0
+      tsup: ^8.5.0
     peerDependenciesMeta:
       tsup:
         optional: true
@@ -3752,15 +3755,17 @@ snapshots:
 
   '@zphyrx/merge-config@1.1.3': {}
 
+  '@zphyrx/merge-config@2.0.0': {}
+
   '@zphyrx/prettier-config@1.1.4(prettier@3.6.2)':
     dependencies:
       '@zphyrx/merge-config': 1.1.3
     optionalDependencies:
       prettier: 3.6.2
 
-  '@zphyrx/tsup-config@1.1.4(tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0))':
+  '@zphyrx/tsup-config@2.0.0(tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0))':
     dependencies:
-      '@zphyrx/merge-config': 1.1.3
+      '@zphyrx/merge-config': 2.0.0
     optionalDependencies:
       tsup: 8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0)
 
