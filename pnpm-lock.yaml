@@ -58,8 +58,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(typescript@5.8.3)
       '@zphyrx/vitest-config':
-        specifier: ^1.1.4
-        version: 1.1.4(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
+        specifier: ^2.0.0
+        version: 2.0.0(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
       eslint:
         specifier: ^9.30.0
         version: 9.30.0(jiti@2.4.2)
@@ -1047,11 +1047,11 @@ packages:
       typescript:
         optional: true
 
-  '@zphyrx/vitest-config@1.1.4':
-    resolution: {integrity: sha512-QAk4ZTXTq0sAQhsHDE1R26OXu4jPnN/V9ROMXIZx5ji/AoyHNf3C3DiS2XTwkfFlP8QimSso3wRVhDOl2G7Avw==}
+  '@zphyrx/vitest-config@2.0.0':
+    resolution: {integrity: sha512-w4e62ckjafxZ6ymKFOnv6cqEBynNpjAPeEQaySB4afmKpOFnjNlWzfYoMsLTUHM2j/E9dZfqfKtRXQUkovwGsA==}
     peerDependencies:
-      '@vitest/coverage-v8': ^3.1.1
-      vitest: ^3.1.1
+      '@vitest/coverage-v8': ^3.2.4
+      vitest: ^3.2.4
     peerDependenciesMeta:
       '@vitest/coverage-v8':
         optional: true
@@ -3768,7 +3768,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  '@zphyrx/vitest-config@1.1.4(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
+  '@zphyrx/vitest-config@2.0.0(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
     optionalDependencies:
       vitest: 3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0)
 
