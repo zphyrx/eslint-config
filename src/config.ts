@@ -3,7 +3,7 @@ import * as exlint from "@zphyrx/exlint";
 import {
   ignores,
   typescript,
-  importX,
+  imports,
   react,
   vitest,
   jest,
@@ -31,7 +31,7 @@ const config = <F extends FrameworkWithFlag = false>(
   const cfgs: FlatConfig.ConfigArray = [
     ...ignores.config(),
     ...typescript.config(),
-    ...importX.config(),
+    ...imports.config(),
   ];
 
   if (
