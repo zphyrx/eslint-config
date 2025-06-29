@@ -15,13 +15,6 @@ const config: FlatConfig.ConfigArray = zphyrx.config(
       "@typescript-eslint/no-redundant-type-constituents": "off",
     },
   },
-  {
-    name: "@zphyrx/eslint-config/import-x",
-    rules: {
-      "import-x/namespace": "off",
-      "import-x/no-unresolved": "off",
-    },
-  },
 );
 
 export default config;
