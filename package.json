@@ -50,7 +50,7 @@
     "@zphyrx/eslint-config-testing-library": "^1.1.4",
     "@zphyrx/eslint-config-typescript": "^1.1.4",
     "@zphyrx/eslint-config-vitest": "^1.1.6",
-    "@zphyrx/exlint": "^1.1.4"
+    "@zphyrx/exlint": "^2.0.0"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.5",
