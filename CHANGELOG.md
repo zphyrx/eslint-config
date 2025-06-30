@@ -4,7 +4,7 @@
 
 ### Major Changes
 
-- ba44076: ### Major Changes
+- ba44076: **Major Changes**
 
   #### 🚀 Features
   - `@zphyrx/eslint-config-import`: add import config and remove import-x
