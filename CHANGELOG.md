@@ -1,5 +1,17 @@
 # @zphyrx/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- ba44076: **Major Changes**
+
+  #### 🚀 Features
+  - `@zphyrx/eslint-config-import`: add import config and remove import-x
+
+  #### 👨🏻‍💻 Author(s)
+  - jcsilverx ([@jcsilverx](https://x.com/jcsilverx))
+
 ## 1.1.5
 
 ### Patch Changes
