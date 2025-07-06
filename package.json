@@ -43,7 +43,7 @@
     "@zphyrx/eslint-config-import": "^2.0.0",
     "@zphyrx/eslint-config-jest": "^2.0.0",
     "@zphyrx/eslint-config-jsx-a11y": "^2.0.0",
-    "@zphyrx/eslint-config-prettier": "^2.0.0",
+    "@zphyrx/eslint-config-prettier": "^2.0.1",
     "@zphyrx/eslint-config-react": "^2.0.0",
     "@zphyrx/eslint-config-storybook": "^2.0.0",
     "@zphyrx/eslint-config-tailwindcss": "^2.0.0",
