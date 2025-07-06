@@ -39,8 +39,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
       '@zphyrx/exlint':
-        specifier: ^2.0.0
-        version: 2.0.0(eslint@9.30.1(jiti@2.4.2))
+        specifier: ^2.0.1
+        version: 2.0.1(eslint@9.30.1(jiti@2.4.2))
     devDependencies:
       '@changesets/cli':
         specifier: ^2.29.5
@@ -1055,10 +1055,10 @@ packages:
       vitest:
         optional: true
 
-  '@zphyrx/exlint@2.0.0':
-    resolution: {integrity: sha512-l2CrCX9Nib5fl4t4wvtwkYfWEKBVxeffOUi0ilw4peDvbcCxNnFnnGeduxBpd144Jy/GRy99DSetWQ7J4Q6cYg==}
+  '@zphyrx/exlint@2.0.1':
+    resolution: {integrity: sha512-7djR2OK5cPJ7/ui+bGzZj8bIiR+gNguoiP++RPUliwibvQa5zHhxDFtnPw2FT0EP8b6e2OHmEg1D41rJHgUVcw==}
     peerDependencies:
-      eslint: ^9.30.0
+      eslint: ^9.30.1
     peerDependenciesMeta:
       eslint:
         optional: true
@@ -3953,7 +3953,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@zphyrx/exlint@2.0.0(eslint@9.30.1(jiti@2.4.2))':
+  '@zphyrx/exlint@2.0.1(eslint@9.30.1(jiti@2.4.2))':
     optionalDependencies:
       eslint: 9.30.1(jiti@2.4.2)
 
