@@ -49,8 +49,8 @@ importers:
         specifier: ^8.35.1
         version: 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       '@zphyrx/prettier-config':
-        specifier: ^2.0.0
-        version: 2.0.0(prettier@3.6.2)
+        specifier: ^2.0.1
+        version: 2.0.1(prettier@3.6.2)
       '@zphyrx/tsup-config':
         specifier: ^2.0.0
         version: 2.0.0(tsup@8.5.0(jiti@2.4.2)(postcss@8.5.1)(typescript@5.8.3)(yaml@2.7.0))
@@ -1066,8 +1066,11 @@ packages:
   '@zphyrx/merge-config@2.0.0':
     resolution: {integrity: sha512-9AwXiH0nP7NKr5KDibTMe7wxM51pFg7/v0pQzliGFMvpziu2SIzpXMdiN6WwySHfQKjC4RRIvKjVcFE31lS+0Q==}
 
-  '@zphyrx/prettier-config@2.0.0':
-    resolution: {integrity: sha512-tbGkITIm4X+b1kuD32plv4fMLry37MzEStjY1RanO1ohjj6KsnTA0UwCmiJ7He6EbrvMz/cX2x+RdJNObbLO8g==}
+  '@zphyrx/merge-config@2.0.1':
+    resolution: {integrity: sha512-RsNgIUPBYhYnlDnrbO2THoLCkzWqdnKEqCqV/ZyD1TOeP+5gZz8XIZoMGxZsHIbNgUTUGStGOLCZOqN6RDR3hw==}
+
+  '@zphyrx/prettier-config@2.0.1':
+    resolution: {integrity: sha512-UaaxxQQeF+zckHpfsj7deuYUpiYHuKu2VUyKT0/imTJrRm4bjwCZYFvcB4vJfQ2nqhahiuQzGnHVEJSA9u3bvA==}
     peerDependencies:
       prettier: ^3.6.2
     peerDependenciesMeta:
@@ -3956,9 +3959,11 @@ snapshots:
 
   '@zphyrx/merge-config@2.0.0': {}
 
-  '@zphyrx/prettier-config@2.0.0(prettier@3.6.2)':
+  '@zphyrx/merge-config@2.0.1': {}
+
+  '@zphyrx/prettier-config@2.0.1(prettier@3.6.2)':
     dependencies:
-      '@zphyrx/merge-config': 2.0.0
+      '@zphyrx/merge-config': 2.0.1
     optionalDependencies:
       prettier: 3.6.2
 
@@ -4613,7 +4618,7 @@ snapshots:
 
   eslint-plugin-import-x@4.16.1(@typescript-eslint/utils@8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint@9.30.1(jiti@2.4.2)):
     dependencies:
-      '@typescript-eslint/types': 8.35.0
+      '@typescript-eslint/types': 8.35.1
       comment-parser: 1.4.1
       debug: 4.4.1
       eslint: 9.30.1(jiti@2.4.2)
