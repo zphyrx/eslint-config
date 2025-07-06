@@ -50,7 +50,7 @@ const config = <F extends FrameworkWithFlag = false>(
 
   if (
     testing === "jest" ||
-    (isArray(testing) && testing[0] === "vitest" && isObject(testing[1]))
+    (isArray(testing) && testing[0] === "jest" && isObject(testing[1]))
   ) {
     cfgs.push(...jest.config(options));
   }
