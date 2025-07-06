@@ -56,7 +56,7 @@
     "@changesets/cli": "^2.29.5",
     "@typescript-eslint/utils": "^8.35.1",
     "@zphyrx/prettier-config": "^2.0.1",
-    "@zphyrx/tsup-config": "^2.0.0",
+    "@zphyrx/tsup-config": "^2.0.1",
     "@zphyrx/typescript-config": "^2.0.1",
     "@zphyrx/vitest-config": "^2.0.0",
     "eslint": "^9.30.1",
