@@ -36,8 +36,8 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       '@zphyrx/eslint-config-vitest':
-        specifier: ^2.0.0
-        version: 2.0.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
+        specifier: ^2.0.1
+        version: 2.0.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
       '@zphyrx/exlint':
         specifier: ^2.0.1
         version: 2.0.1(eslint@9.30.1(jiti@2.4.2))
@@ -873,8 +873,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vitest/eslint-plugin@1.3.3':
-    resolution: {integrity: sha512-zOB4T5f80JXfP5DC2yQl7azRYq8PmGqYle3uxh3a0NnbKc+EaSYSpEcrVAh2r5W97pi3BVv7oRb5NdEQy0cCXA==}
+  '@vitest/eslint-plugin@1.3.4':
+    resolution: {integrity: sha512-EOg8d0jn3BAiKnR55WkFxmxfWA3nmzrbIIuOXyTe6A72duryNgyU+bdBEauA97Aab3ho9kLmAwgPX63Ckj4QEg==}
     peerDependencies:
       eslint: '>= 8.57.0'
       typescript: '>= 5.0.0'
@@ -1007,10 +1007,10 @@ packages:
       typescript:
         optional: true
 
-  '@zphyrx/eslint-config-vitest@2.0.0':
-    resolution: {integrity: sha512-3sm5XySf7sMOKVjKFHnY0pOzhBvkgp2UqR5c0/NTfggUnagcumkKcRXXmEVJy9o8gMV1c5pt4IEap4NXJkShpA==}
+  '@zphyrx/eslint-config-vitest@2.0.1':
+    resolution: {integrity: sha512-rKUoznYhMMTJsrbNI45YgYcoOEs2R22O3/VDebvjt2F032E0F+EaijP/+iDRPMBlseFVUSmTxmjRgZjsT4FVeA==}
     peerDependencies:
-      eslint: ^9.30.0
+      eslint: ^9.30.1
       vitest: ^3.2.4
     peerDependenciesMeta:
       eslint:
@@ -3719,7 +3719,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.9.2':
     optional: true
 
-  '@vitest/eslint-plugin@1.3.3(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
+  '@vitest/eslint-plugin@1.3.4(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
     dependencies:
       '@typescript-eslint/utils': 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.30.1(jiti@2.4.2)
@@ -3851,9 +3851,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@zphyrx/eslint-config-vitest@2.0.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
+  '@zphyrx/eslint-config-vitest@2.0.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))':
     dependencies:
-      '@vitest/eslint-plugin': 1.3.3(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
+      '@vitest/eslint-plugin': 1.3.4(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0))
     optionalDependencies:
       eslint: 9.30.1(jiti@2.4.2)
       vitest: 3.2.4(@types/node@22.13.1)(jiti@2.4.2)(yaml@2.7.0)
