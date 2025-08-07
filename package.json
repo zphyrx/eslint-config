@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.5",
-    "@typescript-eslint/utils": "^8.38.0",
+    "@typescript-eslint/utils": "^8.39.0",
     "@zphyrx/prettier-config": "^2.0.1",
     "@zphyrx/tsup-config": "^2.0.1",
     "@zphyrx/typescript-config": "^2.0.1",
