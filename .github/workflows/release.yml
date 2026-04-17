@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set pnpm vX
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         # The version of `pnpm` will be automatically determined from the `packageManager` field in `package.json`
         # No version is explicitly specified to allow the workflow to use the version defined in the project.
 
