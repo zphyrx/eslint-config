@@ -60,7 +60,7 @@
     "@zphyrx/typescript-config": "^2.0.1",
     "@zphyrx/vitest-config": "^2.0.1",
     "eslint": "^9.39.1",
-    "jiti": "^2.6.1",
+    "jiti": "^2.7.0",
     "prettier": "^3.6.2",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
