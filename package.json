@@ -59,7 +59,7 @@
     "@zphyrx/tsup-config": "^2.0.1",
     "@zphyrx/typescript-config": "^2.0.1",
     "@zphyrx/vitest-config": "^2.0.1",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.5",
     "jiti": "^2.6.1",
     "prettier": "^3.6.2",
     "tsup": "^8.5.1",
@@ -67,7 +67,7 @@
     "vitest": "^4.0.12"
   },
   "peerDependencies": {
-    "eslint": "^9.39.1"
+    "eslint": "^9.39.5"
   },
   "optionalDependencies": {
     "tailwindcss": "^3.4.1"
